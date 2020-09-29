@@ -3,6 +3,7 @@ const close = document.getElementById('close');
 const open = document.getElementById('open');
 const modal = document.getElementById('modal');
 const icon = document.getElementById('nav-icon4')
+const nav = document.getElementById('nav');
 
 toggle.addEventListener('click', ()=>{
     icon.classList.toggle('open');
@@ -12,6 +13,8 @@ toggle.addEventListener('click', ()=>{
 toggle.addEventListener('click', ()=>{
     document.body.classList.toggle('show-nav')
 })
+
+
 
 // Show modal
 open.addEventListener('click', ()=>{
